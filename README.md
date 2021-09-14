@@ -35,8 +35,8 @@ Text Classifier
  - FLASK API
    - Run `python -m api_server.app` to start the server
    - Example API calls:
-     - model_name can be random_forest or rnn
-     - Send a POST request to `http://127.0.0.1:5000/text_classifier?model_name=random_forest`
+     - model_name can be random_forests or rnn
+     - Send a POST request to `http://127.0.0.1:5000/text_classifier?model_name=random_forests`
              with JSON data in body as: </br>
               `{"text": [" mqs bugehpsw  housing   pcs"," pdscpm gb part of panel of chiller", 
 " screwcmxxhni qty  pcs  of ce  partscomponents  accessories for the manufacturing"]}`</br>
